@@ -11,7 +11,7 @@ cat << WRAPPER_END
 if [ ! -d \${HOME}/.fah ]; then
 	mkdir \${HOME}/.fah || exit 1
 fi
-cd \${HOME}/.fah && /usr/bin/nice -n 20 /compat/linux/bin/FAHClient
+cd \${HOME}/.fah && /usr/bin/nice -n 20 /compat/linux/usr/bin/FAHClient
 WRAPPER_END
 }
 
