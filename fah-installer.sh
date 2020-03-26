@@ -41,6 +41,9 @@ fi
 if ! pkg info --exists emulators/linux_base-c7; then
 	pkg install -y emulators/linux_base-c7
 fi
+if ! pkg info --exists security/linux-c7-openssl; then
+	pkg install -y security/linux-c7-openssl
+fi
 if ! pkg info --exists archivers/rpm4; then
 	pkg install -y archivers/rpm4
 fi
